@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+        crossorigin="anonymous"></script>
+    <style>
+        .row {
+            height: 30px;
+
+            background-color: darkcyan
+        }
+
+        .row button:first-child {
+            border-right: 1px solid grey
+        }
+
+        button {
+
+            height: 20px;
+            margin-top: 5px;
+            border: none;
+        }
+
+        .container {
+            width: 300px;
+            float: left
+        }
+
+        .ikincicontainer {
+            height: 500px;
+            border: 1px solid grey;
+            background-color: red
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="birinci" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom  col-md-1"></button>
+
+        </div>
+        <div class="row" id="ikinci" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1 "></button>
+
+        </div>
+
+        <div class="row" id="ucuncu" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+
+        <div class="row" id="dord" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1 "></button>
+
+        </div>
+
+        <div class="row" id="bew" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="alti" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+
+
+        <div class="row" id="yeddi" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="sekkiz" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+
+        <div class="row" id="doqquz" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="on" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="onbir" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="oniki" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="onuc" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="ondord" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="onalti" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom  col-md-1"></button>
+
+        </div>
+        <div class="row" id="onyeddi" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1 "></button>
+
+        </div>
+
+        <div class="row" id="onsekkiz" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1 col-md-1"></button>
+
+        </div>
+        <div class="row" id="ondoqquz" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1 "></button>
+
+        </div>
+        <div class="row" id="iyirmi" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="iyirmibir" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1 "></button>
+
+        </div>
+        <div class="row" id="iyirmibir" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1 "></button>
+
+        </div>
+        <div class="row" id="iyirmiiki" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="iyirmiuc" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1 "></button>
+
+        </div>
+        <div class="row" id="iyirmidord" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="iyirmibew" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="iyirmialti" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1 "></button>
+
+        </div>
+        <div class="row" id="iyirmiyeddi" draggable="true">
+            <button class="custom borderlar col-md-1"></button>
+            <button class="custom col-md-1"></button>
+
+        </div>
+        <div class="row" id="iyirmisekkiz">
+            <button class="borderlar col-md-1">0</button>
+            <button class="borderlar col-md-1">0</button>
+        </div>
+      
+    </div>
+   
+    <div class="ikincicontainer"></div>
+
+
+    <script src="firstdomino.js"></script>
+
+</body>
+
+</html>
